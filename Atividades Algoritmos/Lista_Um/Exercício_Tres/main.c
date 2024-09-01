@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 
     printf("Qual e o verdadeiro nome do super-heroi Batman?\nA)Bruce Wayne\nB)Clark Kent\nC)Peter Parker\nD)Tony Stark\nE)Steve Rogers\n");
     
-    scanf("%s", respostaDoUsuario);
+    scanf("%s", &respostaDoUsuario);
     fflush(stdin);
 
     printf("Voce respondeu a alternativa %s. A resposta correta e a alternativa %s\n", respostaDoUsuario, respostaCorreta);
